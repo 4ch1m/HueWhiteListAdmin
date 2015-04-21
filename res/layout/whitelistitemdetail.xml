@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView android:fadeScrollbars="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:orientation="vertical">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/whitelistitemdetail_label_username"/>
+
+            <TextView android:id="@+id/whitelistitemdetail_username"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="@android:color/white"/>
+
+            <TextView android:id="@+id/whitelistitemdetail_appname_label"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/whitelistitemdetail_label_appname"/>
+
+            <TextView android:id="@+id/whitelistitemdetail_appname"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="@android:color/white"/>
+
+            <TextView android:id="@+id/whitelistitemdetail_devicename_label"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/whitelistitemdetail_label_devicename"/>
+
+            <TextView android:id="@+id/whitelistitemdetail_devicename"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="@android:color/white"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/whitelistitemdetail_label_createdat"/>
+
+            <TextView android:id="@+id/whitelistitemdetail_createdat"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="@android:color/white"/>
+
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/whitelistitemdetail_label_lastusedat"/>
+
+            <TextView android:id="@+id/whitelistitemdetail_lastusedat"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="@android:color/white"/>
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:layout_marginTop="15dp"
+                          android:layout_gravity="center">
+
+                <Button android:id="@+id/whitelistitemdetail_remove_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/whitelistitemdetail_button_remove"/>
+
+                <TextView android:id="@+id/whitelistitemdetail_own_username_info"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textAppearance="?android:attr/textAppearanceLarge"
+                          android:textColor="@android:color/white"
+                          android:text="@string/whitelistitemdetail_own_username_info"
+                          android:padding="10dp"
+                          android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
