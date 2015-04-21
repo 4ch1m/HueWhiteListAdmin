@@ -3,7 +3,7 @@
 
     <string name="app_name">HueWhiteListAdmin</string>
 
-    <string name="disclaimer">This app is using the official hue-Java-SDK provided by Philips.\nAlthough it is very unlikely that using this app will cause any unwanted results you should still be aware that it is modifying the configuration of your hue-brigde.\nSo please think twice before deleting any entries. You\'re using this app at your own risk.</string>
+    <string name="disclaimer">This app is using the official hue-Java-SDK provided by Philips.\nAlthough it is very unlikely that using this app will cause any unwanted results you should still be aware that it is modifying the configuration of your hue-bridge.\nSo please think twice before deleting any entries. You\'re using this app at your own risk.</string>
 
     <string name="about_text"><![CDATA[Created by <b>%s</b>.<br/><br/>Visit the website at:<br/><a href="http://huewhitelistadmin.achimonline.de">huewhitelistadmin.achimonline.de</a>"]]></string>
 
