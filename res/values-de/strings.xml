@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="disclaimer">Diese App nutzt das offizielle hue-Java-SDK von Philips.\nObwohl es sehr unwahrscheinlich ist, dass die Nutzung dieser App unerwünschte Resultate zur Folge hat, ist dennoch zu bedenken, dass durch die Nutzung Änderungen an der Bridge vorgenommen werden.\nDeshalb bitte sorgfältig prüfen, ob der jeweilige Eintrag wirklich gelöscht werden soll. Nutzung der App auf eigenes Risiko.</string>
+
+    <string name="about_text"><![CDATA[Erstellt von <b>%s</b>.<br/><br/>Webseite:<br/><a href="http://huewhitelistadmin.achimonline.de">huewhitelistadmin.achimonline.de</a>"]]></string>
+
+    <string name="cached_bridge_info_cleared">Zwischengespeicherte Bridge-Infos bereinigt.</string>
+
+    <string name="bridgelist_title">Verfügbare Bridges</string>
+    <string name="bridgelist_select_bridge">Bitte eine Bridge zur Nutzung dieser App suchen und auswählen.</string>
+
+    <string name="pushlinkauthentication_title">Authentifizierung</string>
+    <string name="pushlinkauthentication_text">Bitten den Knopf an der Brücke drücken.</string>
+
+    <string name="whitelist_title">WhiteList Einträge</string>
+    <string name="whitelist_empty">Lade &#8230;</string>
+    <string name="whitelist_refresh">Aktualisieren</string>
+
+    <string name="whitelistitemdetail_title">WhiteList Eintrag Details</string>
+    <string name="whitelistitemdetail_label_username">Benutzername:</string>
+    <string name="whitelistitemdetail_label_appname">Appname:</string>
+    <string name="whitelistitemdetail_label_devicename">Gerätename:</string>
+    <string name="whitelistitemdetail_label_createdat">Erstellt am:</string>
+    <string name="whitelistitemdetail_label_lastusedat">Zuletzt genutzt am:</string>
+    <string name="whitelistitemdetail_button_remove">Entfernen</string>
+    <string name="whitelistitemdetail_own_username_info">%s nutzt diesen Benutzer/Schlüssel derzeit um sich mit der Bridge zu verbinden.\nDie App kann sich leider nicht selber von der WhiteList entfernen.</string>
+    <string name="whitelistitemdetail_removal_confirmation">Möchtest Du diesen Eintrag wirklich von Deinem System entfernen?</string>
+    <string name="whitelistitemdetail_toast_removed">Eintrag erfolgreich entfernt.</string>
+
+    <string name="menu_clear_cached_bridge_info">Zwischengespeicherte Bridge-Infos bereinigen</string>
+    <string name="menu_about">Über</string>
+    <string name="menu_find_new_bridge">Neue Bridge suchen</string>
+
+    <string name="searching">Suche &#8230;</string>
+    <string name="connecting">Verbinde &#8230;</string>
+
+    <string name="error">Fehler</string>
+
+</resources>
