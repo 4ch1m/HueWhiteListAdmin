@@ -25,8 +25,10 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 
-import java.util.List;
-import java.util.Map;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class WhiteListItemDetail extends Fragment implements OnClickListener
 {
@@ -228,8 +230,11 @@ public class WhiteListItemDetail extends Fragment implements OnClickListener
                     final JSONObject config = new JSONObject(jsonString);
                     final JSONObject whitelistEntry = config.getJSONObject(JSON_WHITELIST).getJSONObject(userName);
 
-                    createdAtTextView.setText(whitelistEntry.getString(JSON_CREATE_DATE));
-                    lastUsedAtTextView.setText(whitelistEntry.getString(JSON_LAST_USE_DATE));
+                    final String createDate = parseDateString(whitelistEntry.getString(JSON_CREATE_DATE));
+                    final String lastUseDate = parseDateString(whitelistEntry.getString(JSON_LAST_USE_DATE));
+
+                    createdAtTextView.setText(createDate);
+                    lastUsedAtTextView.setText(lastUseDate);
                 }
                 catch (Exception e)
                 {
@@ -262,6 +267,22 @@ public class WhiteListItemDetail extends Fragment implements OnClickListener
             }
 
             return null;
+        }
+
+        private String parseDateString(String dateString) throws ParseException
+        {
+            final Date date = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(dateString);
+
+            final Calendar calendar = GregorianCalendar.getInstance();
+            calendar.setTime(date);
+            calendar.add(Calendar.MILLISECOND, TimeZone.getDefault().getRawOffset());
+
+            if (TimeZone.getDefault().inDaylightTime(new Date()))
+            {
+                calendar.add(Calendar.HOUR, 1);
+            }
+
+            return DateFormat.getDateTimeInstance().format(calendar.getTime());
         }
     }
 }
