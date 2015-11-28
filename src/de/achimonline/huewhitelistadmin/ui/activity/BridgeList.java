@@ -113,14 +113,14 @@ public class BridgeList extends ListActivity
         }
 
         @Override
-        public void onBridgeConnected(PHBridge phBridge)
+        public void onBridgeConnected(PHBridge phBridge, String userName)
         {
             phHueSDK.setSelectedBridge(phBridge);
             phHueSDK.enableHeartbeat(phBridge, PHHueSDK.HB_INTERVAL);
             phHueSDK.getLastHeartbeat().put(phBridge.getResourceCache().getBridgeConfiguration().getIpAddress(), System.currentTimeMillis());
 
             hueSharedPreferences.setLastConnectedIPAddress(phBridge.getResourceCache().getBridgeConfiguration().getIpAddress());
-            hueSharedPreferences.setUsername(hueSharedPreferences.getUsername());
+            hueSharedPreferences.setUsername(userName);
 
             PHWizardAlertDialog.getInstance().closeProgressDialog();
 
@@ -246,7 +246,6 @@ public class BridgeList extends ListActivity
     protected void onListItemClick(ListView l, View v, int position, long id)
     {
         final PHAccessPoint accessPoint = (PHAccessPoint) accessPointListAdapter.getItem(position);
-        accessPoint.setUsername(hueSharedPreferences.getUsername());
 
         final PHBridge connectedBridge = phHueSDK.getSelectedBridge();
 
