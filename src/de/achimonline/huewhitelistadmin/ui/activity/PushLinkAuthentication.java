@@ -101,7 +101,7 @@ public class PushLinkAuthentication extends Activity
         }
 
         @Override
-        public void onBridgeConnected(PHBridge phBridge)
+        public void onBridgeConnected(PHBridge phBridge, String userName)
         {
         }
 
