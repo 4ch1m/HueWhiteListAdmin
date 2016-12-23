@@ -1,3 +1,8 @@
-language: android
-jdk: oraclejdk8
-licenses: android-sdk-license-.+
+language:
+  android
+jdk:
+  oraclejdk8
+licenses:
+  - android-sdk-preview-.+
+  - android-sdk-license-.+
+  - google-gdk-license-.+
