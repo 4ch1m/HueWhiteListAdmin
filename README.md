@@ -30,3 +30,7 @@ With HueWhiteListAdmin you can easily remove any unused authorization-keys from 
 Developed by *Achim Seufert*
 
 Website: [achimonline.de](http://www.achimonline.de)
+
+---
+
+<a href="http://www.jetbrains.com/idea/" style="position: relative;display:block; width:88px; height:31px; border:0; margin:0;padding:0;text-decoration:none;text-indent:0;"><span style="margin: 0;padding: 0;position: absolute;top: 0;left: 4px;font-size: 10px; line-height: 12px;cursor:pointer; background-image:none;border:0;color: #acc4f9; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">Developed with</span><img src="http://www.jetbrains.com/idea/opensource/img/all/banners/idea88x31_blue.gif" alt="The best Java IDE" border="0"/></a>
