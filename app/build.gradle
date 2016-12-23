@@ -10,7 +10,7 @@ android {
         minSdkVersion 11
         targetSdkVersion 25
         versionCode 4
-        versionName "1.3"
+        versionName "1.2"
     }
 
     if (project.hasProperty('RELEASE_STORE_FILE')) {
