@@ -15,9 +15,7 @@ With HueWhiteListAdmin you can easily remove any unused authorization-keys from 
 
 ##Screenshots
 ![screenshot1](https://raw.githubusercontent.com/4ch1m/HueWhiteListAdmin/master/screenshots/screenshot1_framed.png)
----
 ![screenshot2](https://raw.githubusercontent.com/4ch1m/HueWhiteListAdmin/master/screenshots/screenshot2_framed.png)
----
 ![screenshot3](https://raw.githubusercontent.com/4ch1m/HueWhiteListAdmin/master/screenshots/screenshot3_framed.png)
 
 ##Installation
