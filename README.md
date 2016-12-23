@@ -21,10 +21,10 @@ With HueWhiteListAdmin you can easily remove any unused authorization-keys from 
 ![screenshot3](https://raw.githubusercontent.com/4ch1m/HueWhiteListAdmin/master/screenshots/screenshot3_framed.png)
 
 ##Installation
-<a href=""><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80"></a>
+<a href="https://play.google.com/store/apps/details?id=de.achimonline.huewhitelistadmin" target="_blank"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80"></a>
 
 ##Continuous Integration
-<a href="https://travis-ci.org/4ch1m/HueWhiteListAdmin/builds"><img src="https://blog.travis-ci.com/images/travis-mascot-200px.png" height="80"></a>
+<a href="https://travis-ci.org/4ch1m/HueWhiteListAdmin/builds" target="_blank"><img src="https://blog.travis-ci.com/images/travis-mascot-200px.png" height="80"></a>
 
 ##Author
 Developed by *Achim Seufert*

@@ -12,4 +12,5 @@ android:
 licenses:
   - android-sdk-preview-.+
   - android-sdk-license-.+
+  - android-support.+
   - google-gdk-license-.+
