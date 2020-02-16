@@ -1,3 +1,12 @@
+# DISCONTINUED
+
+```diff
+- NOTE: This project is discontinued due to deprecation of the Philips Hue SDK.
+```
+see: [Deprecation – Philips Hue SDK](https://developers.meethue.com/deprecation-philips-hue-sdk/)
+
+---
+
 ![HueWhiteListAdmin](https://raw.githubusercontent.com/4ch1m/HueWhiteListAdmin/master/app/src/main/res/drawable-hdpi/ic_launcher.png)
 # HueWhiteListAdmin
 A simple administration tool for the hue lighting system from Philips
